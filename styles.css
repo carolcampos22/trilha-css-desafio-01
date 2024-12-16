@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    color: #33A8DB;
+    text-transform: uppercase;
+  }
+
+  header {
+    background-color: rgb(2, 2, 34);
+  }
+
+  .banner-content{
+    
+    background-image: url("./assets/images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-bottom: 3px solid #33A8DB;
+    padding: 5vh 0;
+  }
+
+  .banner-content p {
+    font-family: "Raleway", serif;
+    width: 25vw;
+  }
+
+  .banner-content button {
+    margin-top: 2vh;
+    border: 1px solid #33A8DB;
+    text-transform: uppercase;
+    padding: 1vh 2vw;
+    color: #33A8DB;
+    background-color: transparent;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Estilo para a seção parallax */
+  .parallax {
+    background-image: url('https://via.placeholder.com/1920x1080'); /* Substitua pela sua imagem */
+    height: 500px; /* Altura da seção parallax */
+    background-attachment: fixed; /* Fixa a imagem no viewport para criar o efeito */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Estilo para o conteúdo */
+  .content {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4; /* Fundo simples para contraste */
+  }
+  
