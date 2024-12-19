@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@
   }
 
   header {
-    background-color: rgb(2, 2, 34);
+    background-color: rgb(1, 1, 9);
   }
 
   .banner-content{
@@ -43,26 +42,102 @@
     color: #33A8DB;
     background-color: transparent;
   }
+
+  .module {
+    background-color: rgb(59, 59, 59);
+    margin: 2vh 0;
+    border-radius: 57px;
+    padding: 16px 127px;
+    border: 1px solid #33A8DB;
+  }
+
+  .module span {
+    color: #33A8DB;
+  }
+
+  #course-content {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+    padding: 9vh 0;
+    align-items: center;
+    color: #fff;
+  }
+
+  #course-content h2 {
+    text-transform: uppercase;
+    color: #33A8DB;
+  }
+
+  #course-content p {
+    width: 40vw;
+    text-align: center;
+  }
+
+  #professional-challenges {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 0;
+  }
+
+  #professional-challenges p {
+    width: 40vw;
+    text-align: center;
+    
+  }
+
+  #professional-challenges h2 {
+    color: #33A8DB;
+    text-transform: uppercase;
+  }
+  
   
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
   }
+
+  footer {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border-top: 1px solid #33A8DB;
+    padding: 4vh 0;
+  }
   
-  /* Estilo para a seção parallax */
-  .parallax {
-    background-image: url('https://via.placeholder.com/1920x1080'); /* Substitua pela sua imagem */
-    height: 500px; /* Altura da seção parallax */
-    background-attachment: fixed; /* Fixa a imagem no viewport para criar o efeito */
+  
+  #transform-world {
+    display: flex;
+    justify-content: flex-start;
+    background-image: url('./assets/images/woman-code.png'); 
+    background-color: black;
+    height: 500px; 
+    background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+       
+  }
+
+  #transform-world p {
+    width: 10vw;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-shadow: 4px 4px 8px #33A8DB;
+    margin-top: 20vh;
+    margin-left: 15vw;
   }
   
-  /* Estilo para o conteúdo */
-  .content {
-    padding: 50px;
-    text-align: center;
-    background-color: #f4f4f4; /* Fundo simples para contraste */
-  }
-  
+ 
